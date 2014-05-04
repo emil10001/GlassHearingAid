@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 apply plugin: 'android'
@@ -13,7 +13,7 @@ repositories {
 }
 
 android {
-    compileSdkVersion 15
+    compileSdkVersion "Google Inc.:Glass Development Kit Preview:19"
     buildToolsVersion '19.0.1'
 
     defaultConfig {
